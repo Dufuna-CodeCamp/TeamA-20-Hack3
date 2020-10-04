@@ -155,6 +155,10 @@ Forms Page CSS Ends
 p{
     text-align: center;
 }
+.summary {
+    text-align: center;
+    padding-bottom: 10px;
+}
 /* Grant Session */
 
 .jumbotron-horn {
