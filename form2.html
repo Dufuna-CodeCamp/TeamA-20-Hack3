@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Step 2 | SME-Grants</title>
+</head>
+
+<body>
+    <header>
+        <nav role="navigation" class="navbar navbar-expand-lg ">
+            <div class="container ml-lg-auto">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/money.svg" class="icon" alt="logo" style="width: 50px;">
+                </a>
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item active"><a href="grant.html" class="nav-link text-info">Grants</a></li>
+                    <li class="nav-item"><a href="form.html" class="nav-link text-info">Form</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+        <div id="heading">
+            <h1>Application Form</h1>
+        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="step">
+                            <h3>Step 2: Institution Data Form</h3>
+                            <p>This form requires the information of the institution.<br>Classification of institutions
+                                listed in the dropdown help the<br> grant donors
+                                understand the particular needs of the business.<br> Please ensure the appropriate data
+                                is entered in the respective<br> fields
+                                as this will help in the processing time of the grants. Note<br> that all fields are
+                                mandatory and do click <b>"NEXT"</b> to move to the<br>next form.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <form class="form">
+                            <input type="text" name="bizName" placeholder="Name of Institution" class="control"><br>
+                            <input type="text" name="regNum" placeholder="CAC Registration Number" class="control">
+                            <input type="text" name="website" placeholder="Website" class="control"><br><br>
+                            <label>Type of Business: <select name="biztype"><br>
+                                    <option disabled selected value>Select a Business Type</option><br>
+                                    <option value="smallScale">Small Scale Venture</option><br>
+                                    <option value="MediumScale">Medium Scale Enterprise</option><br>
+                                    <option value="largeScale">Large Scale Business</option><br>
+                                    <option value="others">Others</option><br>
+                                </select>
+                            </label><br>
+                            <label>Business Sector: <select name="biztype"><br><br>
+                                    <option disabled selected value>Select a Business Sector</option><br>
+                                    <option value="health">Health</option><br>
+                                    <option value="banking">Banking</option><br>
+                                    <option value="insurance">Insurance</option><br>
+                                    <option value="technology">Technology</option><br>
+                                    <option value="manufacturing">Manufaturing</option><br>
+                                    <option value="transportation">Transportation</option><br>
+                                    <option value="others">Others</option><br>
+                                </select>
+                            </label><br>
+                            <input type="number" name="employeeStrength" placeholder="Employee Strength"
+                                class="control">
+                            <input type="number" name="phone" placeholder="Gross Annual Income" class="control">
+                            <input type="number" name="pAddress" placeholder="How Much Grant Needed?"
+                                class="control"><br>
+                            <input type="text" name="pAddress" placeholder="Postal Address" class="control"><br>
+                            <input type="number" name="pAddress" placeholder="Postal Code" class="control"><br><br>
+                            <label>City: <input type="text" id="text"></label><br>
+                            <label>State: <input type="text" id="text"></label><br>
+                            <label>Country: <select id="counryDrop" name="country"><br>
+                                    <option disabled selected value>Select a Country</option><br>
+                                    <option value="student">Afghanistan</option><br>
+                                    <option value="fulltimejob">Brazil</option><br>
+                                    <option value="fulltimelearner">Canada</option><br>
+                                    <option value="prefernottosay">Nigeria</option><br>
+                                    <option value="other">United Kingdom</option><br>
+                                    <option value="other">United States of America</option><br>
+                                </select>
+                            </label><br>
+                            <input type="submit" formaction="/form3.html" class="btn " value="Next">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="footer bg-info">
+            <div class="container">
+                <div class="row">
+                    <footer class="page-footer font-small text-white pt-4 "></footer>
+                    <div class="col-md-4 pt-5 pb-30 text-white">
+                        Contact Us
+                        <br>
+                        <i class="fa fa-facebook fa-2x text-white"></i>
+                        <i class="fa fa-twitter fa-2x text-white"></i>
+                        <i class="fa fa-envelope fa-2x text-white"></i>
+                        <i class="fa fa-youtube-square fa-2x text-white"></i>
+                    </div>
+                    <div class="col-md-4 pt-md-5 pt-3 text-white text-md-center">
+                        <label for="email_address">Subscribe to our newsletter </label> <br>
+                        <Input type="text" name="email_address" id="email_address"
+                            placeholder="Enter your email address">
+                        <button class="text- btn-info">Subscribe</button>
+                    </div>
+                    <div class="col-md-4 pt-md-5 pt-3 text-white text-right footer-nav">
+                        <a href="../html-forms/contact-form.html" class="text-white">Grants</a> <br>
+                        <a href="#" class="text-white">How To Apply</a> <br>
+                        <a href="#" class="text-white">Sign Up</a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p class="text-white py-3">
+                        Copyright 2020 smegrants.com All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="form.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

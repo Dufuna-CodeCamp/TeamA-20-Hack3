@@ -146,9 +146,15 @@ color: #D3D3D3;
 
 }
 
+
 /*******************************************
 Forms Page CSS Ends
 ******************************************/
+
+/* Summary page */
+p{
+    text-align: center;
+}
 /* Grant Session */
 
 .jumbotron-horn {

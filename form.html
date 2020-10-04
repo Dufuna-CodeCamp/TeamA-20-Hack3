@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
-    <title>Forms</title>
+    <title>Step 1 | SME-Grants</title>
 </head>
 <body>
     <header>
@@ -17,7 +17,7 @@
                         <img src="./images/money.svg" class="icon" alt="logo" style="width: 50px;">
                     </a>
                     <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item active"><a href="grant.html" class="nav-link text-info">Grants</a></li>
                     <li class="nav-item"><a href="form.html" class="nav-link text-info">Form</a></li>
                     </ul>
@@ -63,100 +63,10 @@
                         <option value="other">United States of America</option><br>
                         </select>
                     </label><br>
-                    <button type="button" class="button1">Next</button>
+                    <input type="submit" formaction="/form2.html" class="btn " value="Next">
                 </div>
             </form>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="step">
-                <h3>Step 2: Institution Data Form</h3>
-                <p>This form requires the information of the institution.<br>Classification of institutions listed in the dropdown help the<br> grant donors
-                    understand the particular needs of the business.<br> Please ensure the appropriate data is entered in the respective<br> fields
-                    as this will help in the processing time of the grants. Note<br> that all fields are mandatory and do click <b>"NEXT"</b> to move to the<br>next form.
-                </p>
-            </div>
-        </div>
-       <div class="col-lg-6 col-md-6">
-                <form class="form">
-               <input type="text" name="bizName" placeholder="Name of Institution" class="control" ><br>
-                    <input type="text" name="regNum" placeholder="CAC Registration Number" class="control">
-                    <input type="text" name="website" placeholder="Website" class="control" ><br><br>
-                    <label>Type of Business: <select name="biztype"><br>
-                        <option disabled selected value>Select a Business Type</option><br>
-                        <option value="smallScale">Small Scale Venture</option><br>
-                        <option value="MediumScale">Medium Scale Enterprise</option><br>
-                        <option value="largeScale">Large Scale Business</option><br>
-                        <option value="others">Others</option><br>
-                        </select>
-                    </label><br>
-                    <label>Business Sector: <select name="biztype"><br><br>
-                        <option disabled selected value>Select a Business Sector</option><br>
-                        <option value="health">Health</option><br>
-                        <option value="banking">Banking</option><br>
-                        <option value="insurance">Insurance</option><br>
-                        <option value="technology">Technology</option><br>
-                        <option value="manufacturing">Manufaturing</option><br>
-                        <option value="transportation">Transportation</option><br>
-                        <option value="others">Others</option><br>
-                        </select>
-                    </label><br>
-                    <input type="number" name="employeeStrength" placeholder="Employee Strength" class="control" >
-                    <input type="number" name="phone" placeholder="Gross Annual Income" class="control" >
-                    <input type="number" name="pAddress" placeholder="How Much Grant Needed?" class="control"><br>
-                    <input type="text" name="pAddress" placeholder="Postal Address" class="control"><br>
-                    <input type="number" name="pAddress" placeholder="Postal Code" class="control"><br><br>
-                    <label>City: <input type="text" id="text"></label><br>
-                    <label>State: <input type="text" id="text"></label><br>
-                    <label>Country: <select id="counryDrop" name="country"><br>
-                        <option disabled selected value>Select a Country</option><br>
-                        <option value="student">Afghanistan</option><br>
-                        <option value="fulltimejob">Brazil</option><br>
-                        <option value="fulltimelearner">Canada</option><br>
-                        <option value="prefernottosay">Nigeria</option><br>
-                        <option value="other">United Kingdom</option><br>
-                        <option value="other">United States of America</option><br>
-                        </select>
-                    </label><br>
-                    <button type="button"  class="button1">Next</button>
-                </form>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="step">
-            <h3>Step 3: Grant Utilization Data Form</h3>
-            <p>This form requires information about how the grant obtained<br> will be utilized. Give a breakdown of the various grant sums<br> needed and an
-                explanation of how these sums will be utilised.<br> Please ensure the appropriate data is entered in the respective<br> fields
-                as this will help in the processing time of the grants. Note<br> that all fields are mandatory and do click <b>"SUBMIT"</b> to move to<br> the next form.
-            </p>
-        </div>
-    </div>
-
-               <div class="col-lg-6 col-md-6">
-                <form class="form">
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <textarea placeholder="Enter purpose of the amount stated" class="control1"></textarea><br>
-                    <input type="number" name="bizName" placeholder="Enter Amount in USD" class="control1"><br><br>
-                    <button type="button"  class="button1"><a href="success.html">Submit</a></button>
-                </form>
-            </div>    
-        </div>
-    </div>
-    </div>
             <div class="footer bg-info">
                 <div class="container">
                     <div class="row">
