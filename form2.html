@@ -13,7 +13,7 @@
     <header>
         <nav role="navigation" class="navbar navbar-expand-lg ">
             <div class="container ml-lg-auto">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="./images/money.svg" class="icon" alt="logo" style="width: 50px;">
                 </a>
                 <ul class="navbar-nav ml-lg-auto">
@@ -44,9 +44,9 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <form class="form">
-                            <input type="text" name="bizName" placeholder="Name of Institution" class="control"><br>
-                            <input type="text" name="regNum" placeholder="CAC Registration Number" class="control">
-                            <input type="text" name="website" placeholder="Website" class="control"><br><br>
+                            <input type="text" name="bizName" placeholder="Name of Institution" class="control"required><br>
+                            <input type="text" name="regNum" placeholder="CAC Registration Number" class="control"required>
+                            <input type="text" name="website" placeholder="Website" class="control"required><br><br>
                             <label>Type of Business: <select name="biztype"><br>
                                     <option disabled selected value>Select a Business Type</option><br>
                                     <option value="smallScale">Small Scale Venture</option><br>
@@ -68,11 +68,11 @@
                             </label><br>
                             <input type="number" name="employeeStrength" placeholder="Employee Strength"
                                 class="control">
-                            <input type="number" name="phone" placeholder="Gross Annual Income" class="control">
+                            <input type="number" name="phone" placeholder="Gross Annual Income" class="control"required>
                             <input type="number" name="pAddress" placeholder="How Much Grant Needed?"
                                 class="control"><br>
-                            <input type="text" name="pAddress" placeholder="Postal Address" class="control"><br>
-                            <input type="number" name="pAddress" placeholder="Postal Code" class="control"><br><br>
+                            <input type="text" name="pAddress" placeholder="Postal Address" class="control"required><br>
+                            <input type="number" name="pAddress" placeholder="Postal Code" class="control"required><br><br>
                             <label>City: <input type="text" id="text"></label><br>
                             <label>State: <input type="text" id="text"></label><br>
                             <label>Country: <select id="counryDrop" name="country"><br>
